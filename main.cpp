@@ -13,6 +13,7 @@ int addition(int a, int b) {
 
 int subtraction(int a, int b) {
     return a - b;
+}
 
 // Multiply
 int multiply(int a, int b) {
@@ -26,6 +27,7 @@ int divide(int a, int b) {
         std::cerr << "Cannot divide by 0!\n"; // Displays an error message
         exit(1); // Terminates program with an exit code of 1
     }
+    return a / b;
 }
 
 int main() {
