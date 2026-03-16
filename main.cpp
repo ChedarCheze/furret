@@ -13,10 +13,11 @@ int addition(int a, int b) {
 
 int subtraction(int a, int b) {
     return a - b;
+}
 
 // Multiply
 int multiply(int a, int b) {
-    return a + b;
+    return a * b;
 }
 
 // Division Function
